@@ -1,0 +1,95 @@
+  
+ul{
+    padding:0;
+}
+
+ul>li{
+    list-style: none;
+    display: inline;
+    padding-right:10px;
+    font-size: 30px;
+}
+
+ul>li>a{
+    color:rebeccapurple;
+}
+
+ul>li>i:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.lists {
+    min-height: 100px;
+    border-collapse: collapse;
+}
+
+.listName {
+    min-height: 50px;
+    font-size: 28px;
+    padding: 0 0 0 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.tasks {
+    font-size: 22px;
+    padding: 0;
+}
+
+.clickableButton:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.125);
+}
+
+.clickableButton {
+    background: rgba(0, 0, 0, 0.062);
+}
+
+.taskStatus:hover {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.125);
+}
+
+.smallerText {
+    font-size: 22px;
+}
+
+#annuleerAddList {
+    display: inline-block;
+}
+
+#annuleerAddItem {
+    display: inline-block;
+}
+
+.invisible {
+    display: none;
+}
+
+.taskName {
+    width: calc(100% - 140px - 55px)
+}
+.taskDuration {
+    float: right;
+    width: 140px;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.taskStatus {
+    float: right;
+    width: 55px;
+    height: 55px;
+    font-size: 45px;
+    line-height: 45px;
+    padding: 4px 0 0 4px;
+    border-left: 1px solid rgba(0, 0, 0, 0.125);
+    display: inline-block;
+
+}
+
+.taskContent {
+    display: inline-block;
+    height: auto;
+    min-height: 55px;
+    padding: 10px 20px 10px 20px;
+}
